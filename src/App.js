@@ -1,24 +1,19 @@
-import React,{useState} from 'react';
+//import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Homepage from './Pages/Homepage/Homepage';
+
 
 function App() {
-const [email,setEmail]=useState('')
-
-
-const handleSubmit=(e)=>{
-  e.preventDefault()
-  console.log(email)
-}
 
   return (
-    <div>
-       <form onSubmit={handleSubmit}>
-        <input
-          onChange={(e)=>setEmail(e.target.value)}
-        />
-       </form>
+    <div className="App">
+       <Header />
+       <Homepage />
+       <Footer />
     </div>
   );
-}
+  }
 
 export default App;

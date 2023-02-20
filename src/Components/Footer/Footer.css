@@ -1,0 +1,17 @@
+.footer-container{
+    color: white;
+    background-color:black;
+    width: 1440px;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerright{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding-left: 80px;
+    margin: 20px;
+}

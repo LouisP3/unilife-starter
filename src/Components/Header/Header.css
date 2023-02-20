@@ -1,0 +1,14 @@
+.Headercontainer{
+    background-color: #00A2E1;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactimg{
+    padding-left: 20px;
+    padding-right: 10px;
+}
